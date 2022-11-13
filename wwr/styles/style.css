@@ -235,7 +235,7 @@ main section img {
     height: 100%;
     width: 200%;
     border: 20px solid #70ABAF;
-    margin-left: -100px;
+    margin-left: -50px;
 }
 .raft-img{
     grid-column: 2/6;
@@ -245,7 +245,7 @@ main section img {
     border: #70ABAF;
     border-width: 10px;
     border: 20px solid #70ABAF;
-    margin-left: -100px;
+    margin-left: -50px;
 }
 
 
