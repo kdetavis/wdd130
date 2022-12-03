@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Montserrat:wght@300&display=swap');
+html{
+    background-color: #eaf0ef;
+}
+header{
+    background-color: #F8DB94;
+    border: 20px solid #AABD8C;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    padding: 20px;
+}
+.main-logo{
+    max-width: 150px;
+}
+.slogan{
+    text-align: center;
+    max-width: 300px;
+    margin-left: -150px;
+    color: #463F3A;
+    border: 10px solid #AABD8C;
+    font-family: Fjalla One;
+}
+nav a{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    grid-column: 3/4;
+    grid-row: 1/1;
+    margin: 10px;
+    font-size: 20px;
+    color: #463F3A;
+    font-family: Montserrat;
+}
+nav a:hover{
+    color: #AABD8C;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px
+}
+.trad{
+    grid-column: 1/2;
+    border: 10px solid #61270A;
+    font-size: 25px;
+    color: #463F3A;
+    font-family: Montserrat;
+    text-align: center;
+}
+.tradpic{
+    width: 350px;
+    text-align: center;
+}
+.sport{
+    grid-column: 3/3;
+    border: 10px solid #61270A;
+    color: #463F3A;
+    font-size: 25px;
+    font-family: Montserrat;
+    text-align: center;
+}
+.sportpic{
+    width: 350px;
+    text-align: center;
+}
+.toppic{
+    width: 250px;
+    text-align: center;
+
+}
+.top-roping{
+    grid-column: 2/3;
+    grid-row: 1/1;
+    border: 10px solid #61270A;
+    color: #463F3A;
+    font-size: 25px;
+    text-align: center;
+    font-family: Montserrat;
+}
+footer{
+    background-color: #F8DB94;
+    border: 20px solid #AABD8C;
+}
+.copyright{
+    color: #463F3A;
+    font-family: Montserrat;
+}
+footer a{
+    text-decoration: none;
+    color: #463F3A;
+    font-family: Montserrat;
+}
+footer a:hover{
+    color: #AABD8C;
+}
