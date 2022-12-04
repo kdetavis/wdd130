@@ -97,6 +97,59 @@ footer a:hover{
 
 
 
+/*Start of Page 2*/
+.gear-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px
+}
+.gear-needed{
+    grid-column: 1/2;
+    border: 10px solid #61270A;
+    font-size: 25px;
+    color: #463F3A;
+    font-family: Montserrat;
+    text-align: center;
+}
+.sportrack{
+    width: 450px;
+    text-align: center;
+}
+.gear-howto{
+    grid-column: 2/2;
+    border: 10px solid #61270A;
+    font-size: 25px;
+    color: #463F3A;
+    font-family: Montserrat;
+    text-align: center;
+}
+.gearrack{
+    width: 350px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (min-width: 414px) 
