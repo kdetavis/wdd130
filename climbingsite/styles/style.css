@@ -128,6 +128,48 @@ footer a:hover{
     text-align: center;
 }
 
+/*Start of page 3*/
+.safety-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px
+}
+.where-to-climb{
+    grid-column: 1/2;
+    border: 10px solid #61270A;
+    font-size: 25px;
+    color: #463F3A;
+    font-family: Montserrat;
+    text-align: center;
+}
+.yosemite{
+    width: 350px;
+    text-align: center;
+}
+.safety-ethics{
+    grid-column: 2/2;
+    border: 10px solid #61270A;
+    font-size: 25px;
+    color: #463F3A;
+    font-family: Montserrat;
+    text-align: center;
+}
+.trad-lead{
+    width: 350px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
