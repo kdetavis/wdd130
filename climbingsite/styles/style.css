@@ -163,16 +163,19 @@ footer a:hover{
 
 
 
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 900px) {
-    /*Specific CSS here */
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    .main-logo{
+        grid-row: 1/2;
+    }
+    .slogan{
+        grid-row: 2/2;
+        margin-left: 5px;
+    }
   }
